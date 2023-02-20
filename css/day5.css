@@ -1,0 +1,87 @@
+* {
+    margin: 2vh;
+    padding: 5vh;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-direction-rtl {
+    direction: rtl;
+}
+
+.text-direction-ltr {
+    direction: ltr;
+}
+
+section article h3 {
+    text-align: center;
+}
+
+header h1{
+    text-align: center;
+    text-decoration: overline underline wavy greenyellow;
+    text-shadow: -6px 3.5px 3px rgb(86, 216, 136);
+}
+
+hr {
+    margin-top: 20px;
+    padding: 0;
+}
+
+.text-transform {
+    text-transform: capitalize;
+}
+
+.text-indent {
+    text-indent: 200px;
+}
+
+.line-height {
+    line-height: 2;
+}
+
+.word-spacing {
+    word-spacing: 30px;
+}
+
+.letter-spacing {
+    letter-spacing: 5px;
+}
+
+.white-space{
+    white-space: break-spaces;
+}
+
+.text-overflow {
+    width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+footer {
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
+    margin: 10vh;
+    padding: 10vh;
+    background-color: cadetblue;
+    display: inline;
+    color: gold;
+}

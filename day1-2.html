@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1 : ReLearn HTML</title>
+</head>
+
+<body style="background-color: rgb(255, 127, 191);">
+    <h1 align="center" style="color: red">Day 1 - 2 : ReLearn HTML</h1>
+    <hr>
+    <section>
+        <h3>HTML Introduction</h3>
+        <hr>
+        <h3>Tag, Element, dan Atribut</h3>
+        <p>
+            Tag di dalam dokumen HTML bertujuan untuk memberitahu browser bagaimana teks di dalamnya harus ditampilkan. Kebanyakan tag-tag dalam HTML ditulis secara berpasang semisal <"body> dan <"/body>. <"body> 
+            disini dinamakan tag pembuka dan <"/body> merupakan tag penutup. </p> <p> Tag biasanya juga mengandung atribut (attribute), yaitu sebuah informasi tambahan yang diletakkan pada tag pembuka, 
+            misal <"p class=”pembuka”>…………<"/p> . Perlu dicatat bahwa setiap nama dan nilai setiap atribut memiliki fungsi yang berbeda-beda 
+        </p> 
+        <p>
+            Semua yang terdapat pada tag pembuka sampai tag penutup disebut dengan element. Misalnya begini, semua yang berada pada tag <'body> dan <'/body> dinamakan element body sedangkan <'body> dan <'/body> 
+            merupakan tag, bukan element. 
+        </p>
+        <hr>
+        <h3>Belajar Heading, Paragraf, dan Link dalam HTML</h3>
+        <ul>
+            <p>ini tag <"p">, Heading di HTML ada 6, yaitu :</p>
+            <h1>Heading 1 : membuat judul</h1>
+            <h2>Heading 2 : membuat sub judul</h2>
+            <h3>Heading 3 : membuat sub judul</h3>
+            <h4>Heading 4 : membuat sub judul</h4>
+            <h5>Heading 5 : membuat sub judul tapi jarang dipakai</h5>
+            <h6>Heading 6 : membuat sub judul tapi jarang dipakai</h6>
+        </ul>
+        <hr>
+        <h3>List and Table</h3>
+        <p>List pada HTML ada 3 yaitu Order List, Unorder List dan Description List
+        </p>
+        <h3>Ordered List</h3>
+        <h4>Ordered List dengan angka (default)</h4>
+        <ol>
+            <li>List 1</li>
+            <li>List 2</li>
+            <li>List 3</li>
+        </ol>
+        <h4>Ordered List dengan huruf menggunakan atribut type="a"</h4>
+        <ol type="a">
+            <li>Jeruk</li>
+            <li>Semangka</li>
+            <li>Pepaya</li>
+            <li>Melon</li>
+        </ol>
+        <h4>Ordered List dengan angka romawi menggunakan atribut type="I"</h4>
+        <ol type="I">
+            <li>Jeruk</li>
+            <li>Semangka</li>
+            <li>Pepaya</li>
+            <li>Melon</li>
+        </ol>
+        <h4>Ordered List dengan angka i menggunakan atribut type="i"</h4>
+        <ol type="i">
+            <li>Jeruk</li>
+            <li>Semangka</li>
+            <li>Pepaya</li>
+            <li>Melon</li>
+        </ol>
+        <h3>Unordered List</h3>
+        <h4>Unordered List dengan tanda disc/titik atau menggunakan attribut
+            type="disc"(default)</h4>
+        <ul>
+            <li>list 1</li>
+            <li>list 2</li>
+            <li>list 3</li>
+        </ul>
+        <h4>Unordered List dengan tanda kotak menggunakan atribut type="square"</h4>
+        <ul type="square">
+            <li>list 1</li>
+            <li>list 2</li>
+            <li>list 3</li>
+        </ul>
+        <h4>Unordered List dengan tanda bulat menggunakan atribut type="circle"</h4>
+        <ul type="circle">
+            <li>list 1</li>
+            <li>list 2</li>
+            <li>list 3</li>
+        </ul>
+        <h4>Unordered List tanpa tanda menggunakan atribut type="none"</h4>
+        <ul type="none">
+            <li>list 1</li>
+            <li>list 2</li>
+            <li>list 3</li>
+        </ul>
+    </section>
+    <h3>Description List</h3>
+    <h4>Description List menggunakan tag <'dl> untuk membuka tag description listnya, kemudian <'dt> untuk judul dan
+                <'dd> untuk isinya(default)</h4>
+    <dl>
+        <dt>list 1 : ini adalah judul description list menggunakan tag <'dt>
+        </dt>
+        <dd>ini adalah deskripsi dari description list menggunakan tag <'dd>
+        </dd>
+        <dt>list 2</dt>
+        <dd>ini adalah deskripsi dari description list menggunakan tag <'dd>
+        </dd>
+        <dt>list 3</dt>
+        <dd>ini adalah deskripsi dari description list menggunakan tag <'dd>
+        </dd>
+    </dl>
+    <h3>Table di HTML</h3>
+    <h4>Tag Table di HTML ada 6 yaitu :</h4>
+    <ol>
+        <li>Tag <'table> untuk membungkus tabelnya</li>
+        <li>Tag <'thead> untuk membungkus bagian kepalanya</li>
+        <li>Tag <'body> untuk membungkus bagian body tabel</li>
+        <li>Tag <'tr> (table row) untuk membuat baris</li>
+        <li>Tag <'td> (table data) untuk membuat cell</li>
+        <li>Tag <'th> (table head) untuk membuat Judul pada header tabel</li>
+    </ol>
+    <h4>Contoh Tabel</h4>
+    <table border="1" cellpadding="8">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>Nama</th>
+                <th>Jurusan</th>
+                <th>Alamat</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Virgo Fajar Pamungkas</td>
+                <td>Teknik Informatika</td>
+                <td>Jepara, Jawa Tengah</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Bregi Revandi</td>
+                <td>Teknik Informatika</td>
+                <td>Jepara, Jawa Tengah</td>
+            </tr>
+        </tbody>
+    </table>
+    <h4>Collspan dan Rowspan pada Table</h4>
+    <table border="1" cellpadding="7">
+        <tr>
+            <th rowspan="2" bgcolor="purple">Bulan</th>
+            <th colspan="2" bgcolor="yellow">Hasil Panen</th>
+        </tr>
+        <tr>
+            <td>Padi</td>
+            <td>Jagung</td>
+        </tr>
+        <tr>
+            <td>Januari</td>
+            <td>500kg</td>
+            <td>300kg</td>
+        </tr>
+        <tr>
+            <td>Februari</td>
+            <td>50kg</td>
+            <td>302kg</td>
+        </tr>
+    </table>
+    <hr>
+    <h3>Form di HTML</h3>
+    <h4>Form di HTML dapat dibuat dengan tag <'form>, dan tag form memiliki 2 atribut wajib yaitu :</h4>
+    <ul>
+        <li>action, untuk menentukan aksi yang akan dilakukan setelah dikirim</li>
+        <li>method, metode pengiriman (dalam php biasanya post/get)</li>
+    </ul>
+    <h4>Contoh membuat Form Login dan Register</h4>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Login</legend>
+            <div>
+                <label for="username">Username</label>
+                <input required type="text" name="username" id="username" placeholder="Username . . .">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Password . . .">
+            </div>
+            <div>
+                <input type="submit" value="Login">
+            </div>
+        </fieldset>
+    </form>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Register</legend>
+            <div>
+                <label for="username">Username</label>
+                <input required type="text" name="username" id="username" placeholder="Username . . .">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email . . .">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Password . . .">
+            </div>
+            <div>
+                <label for="jenis_kelamin">Jenis Kelamin</label>
+                <label><input type="radio" name="jenis_kelamin" value="Laki - laki">Laki - laki</label>
+                <label><input type="radio" name="jenis_kelamin" value="Perempuan">Perempuan</label>
+            </div>
+            <div>
+                <label for="agama">Agama</label>
+                <select name="agama" id="agama">
+                    <option value="">Pilih Agama</option>
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Katolik">Katolik</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Budha">Budha</option>
+                </select>
+            </div>
+            <div>
+                <label for="biografi">Biografy</label>
+                <textarea name="biografi" id="biografi" cols="30" rows="10"
+                    placeholder="Biografi Singkat . . ."></textarea>
+            </div>
+            <div>
+                <label for="hobi">Hobi</label>
+                <label><input type="checkbox" name="hobi[]" id="checkbox" value="Sepak Bola">Sepak Bola</label>
+                <label><input type="checkbox" name="hobi[]" id="checkbox" value="Basket">Basket</label>
+                <label><input type="checkbox" name="hobi[]" id="checkbox" value="Tenis Meja">Tenis Meja</label>
+            </div>
+            <div>
+                <input type="submit" value="Daftar">
+            </div>
+        </fieldset>
+    </form>
+    <hr>
+    <h3>Image, Video dan Audio</h3>
+    <h4>Images pada HTML</h4>
+    <div>
+        <p>pada HTML untuk menampilkan image menggunakan tag <'img></p>
+        <img src="media/images/gambar.jpg" alt="" width="100" height="100">
+        <div style="background-image: url(media/images/gambar.jpg); width: 50vh;">
+            <h4 style="text-align: center; color: gold;">contoh image sebagai background ditaruh dalam tag div menggunakan attribut style</h4>
+        </div>
+        <div>
+            <p>membuat image dengan link tag <'img> dibungkus menggunakan tag <'a></p>
+            <a href="https://google.com" target="_blank"><img src="https://images.unsplash.com/photo-1675897634504-bf03f1a2a66a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt=""></a>
+        </div>
+    </div>
+    <div>
+    <h4>Video pada HTML</h4>
+    <p>Pada HTML untuk menampilkan video menggunakan tag <'video> dengan attribut controls kemudian tag <'source src="" type"video/mp4""> untuk source videonya beserta attribut src dan type videonya</p>
+    <video controls width="500">
+        <source src="media/videos/video.mp4" type="video/mp4">
+    </video>
+    </div>
+    <div>
+        <p>Menampilkan Video dari internet menggunakan embed dengan tag <'iframe></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/b7S5pWhEF08" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <hr>
+    <div>
+        <h4>Audio dalam HTML</h4>
+        <p>Pada HTML untuk menampilkan Audio menggunakan tag <'audio controls> dengan attribut controls kemudian tag <'source src="" type"audio/mp3""> untuk source audionya beserta attribut src dan type audionya</p>
+        <audio controls>
+            <source src="media/audios/01. Bohemian Rhapsody.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <hr>
+    <h3>Elemen Semantik di HTML</h3>
+    <p> Elemen Semantik merupakan elemen-elemen yang menyatakan makna atau tujuan dari elemen itu sendiri, berikut beberapa tag elemen Semantik</p>
+    <div>
+        <table>
+            <tr>
+                <th>
+                    <ul type="square">
+                        <li>
+                            <'article>
+                        </li>
+                        <li>
+                            <'aside>
+                        </li>
+                        <li>
+                            <'details>
+                        </li>
+                        <li>
+                            <'figcaption>
+                        </li>
+                        <li>
+                            <'figure>
+                        </li>
+                        <li>
+                            <'footer>
+                        </li>
+                    </ul>
+                </th>
+                <th>
+                    <ul type="square">
+                        <li>
+                            <'header>
+                        </li>
+                        <li>
+                            <'main>
+                        </li>
+                        <li>
+                            <'mark>
+                        </li>
+                        <li>
+                            <'nav>
+                        </li>
+                        <li>
+                            <'section>
+                        </li>
+                        <li>
+                            <'summary>
+                        </li>
+                    </ul>
+                </th>
+                <th><ul>
+                    <li><'time></li>
+                </ul></th>
+            </tr>
+        </table>
+    </div>
+    <h3>Mengapa harus pakai elemen semantik? kan pusing?</h3>
+    <p> Salah satu keuntungan menggunakan elemen semantik adalah dokumen html kita akan mudah dibaca, daik itu oleh manusia maupun mesin</p>
+        <header style="background-color: antiquewhite;">
+            <h1 style="color: blue;">Belajar HTML Semantic</h1>
+        </header>
+        <nav>
+            <a href="#">Test Navbar</a>
+            <a href="#">Menggunakan</a>
+            <a href="#">Tag</a>
+            <a href="#"><'nav></a>
+            <a href="#" style="margin-left: 10vh;">Back to Top</a>
+        </nav>    
+
+        <main>
+            <section>
+                <article>
+                    <h1>Belajar HTML Semantic 2</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque provident nobis alias eos accusamus, illo maiores tempore similique, architecto possimus ipsa quia quam, deleniti sed a voluptatibus unde impedit temporibus!</p>
+                <details>
+                    <summary>Test menggunakan tag <'details> + <'summary></summary>
+                    hasil dari tag details dan sumarry
+                </details>
+                </article>
+            </section>
+        </main>
+
+        <footer style="margin-top: 5vh;">
+            Copyright &copy; 2023 Virgo Fajar Pamungkas
+        </footer>
+    <hr>
+    <div align="center">
+        <a href="index.html"><button>Back to Index</button></a>
+        <a href="day3-4.html"><button>Day 3-4</button></a>
+    </div>
+</body>
+</html>
